@@ -1,4 +1,4 @@
-# XENOGLYPH: CUSTOM LANGUAGE Recognition 
+# XENOGLYPH: CUSTOM LANGUAGE RECOGNITION 
 
 ## A Deep Learning-Based Image Recognition and Classification System built using Convolutional Neural Network (ResNet-18 architecure) for Synthesized Alien Script Detection. 
 
