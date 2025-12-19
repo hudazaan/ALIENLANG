@@ -24,7 +24,8 @@ Developed for research and development purposes, the system is designed to be ex
 # Frontend
 cd frontend
 npm install                               # Install dependencies
-npm start                                 # Start the client application 
+npm start                                 # Start the client application
+
 # Backend
 cd backend
 npm install                               # Install dependencies
