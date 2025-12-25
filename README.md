@@ -1,4 +1,4 @@
-# XENOGLYPH: CUSTOM LANGUAGE Recognition 
+# XENOGLYPH: CUSTOM LANGUAGE RECOGNITION
 
 ## A Deep Learning-Based Image Recognition and Classification System built using Convolutional Neural Network (ResNet-18 architecure) for Synthesized Alien Script Detection. 
 
@@ -14,6 +14,7 @@ Developed for research and development purposes, the system is designed to be ex
 **Frontend:** React.js, React-Sketch-Canvas, axios, and Bootstrap for styling. <br>
 **Backend:** Node.js, Express.js, CORS, nodemon, dotenv, body-parser. <br>
 **ML Microservice:** FastAPI, Uvicorn, PyTorch, Torchvision, Pillow(PIL), Numpy, OpenCV. <br>
+**Deployment & DevOps:** Docker (containerization of frontend, backend, and ML microservice). 
 
 ### Language Dataset: 
 ![Demo Dataset Image](Demo.png)
@@ -25,6 +26,7 @@ Developed for research and development purposes, the system is designed to be ex
 cd frontend
 npm install                               # Install dependencies
 npm start                                 # Start the client application 
+
 # Backend
 cd backend
 npm install                               # Install dependencies
@@ -36,4 +38,11 @@ python -m venv venv                       # Create and Activate virtual environm
 venv\Scripts\activate                     # Windows
 source venv/bin/activate                  # Linux / macOS
 pip install -r requirements.txt           # Install dependencies
-uvicorn app:app --reload --port 8000      # Start FastAPI server
+uvicorn app:app --reload --port 8000      # Start FastAPI server 
+
+# Docker Services 
+docker compose build                      # Build all images
+docker compose up                         # Start frontend + backend + ML service
+docker images                             # check built images 
+docker ps                                 # verify running containers
+docker compose down                       # Stop all containers, if needed. 
