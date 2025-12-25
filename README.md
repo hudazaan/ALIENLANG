@@ -25,7 +25,7 @@ Developed for research and development purposes, the system is designed to be ex
 # Frontend
 cd frontend
 npm install                               # Install dependencies
-npm start                                 # Start the client application 
+npm start                                 # Start the client application
 
 # Backend
 cd backend
@@ -38,11 +38,11 @@ python -m venv venv                       # Create and Activate virtual environm
 venv\Scripts\activate                     # Windows
 source venv/bin/activate                  # Linux / macOS
 pip install -r requirements.txt           # Install dependencies
-uvicorn app:app --reload --port 8000      # Start FastAPI server 
+uvicorn app:app --reload --port 8000      # Start FastAPI server
 
 # Docker Services 
 docker compose build                      # Build all images
 docker compose up                         # Start frontend + backend + ML service
 docker images                             # check built images 
 docker ps                                 # verify running containers
-docker compose down                       # Stop all containers, if needed. 
+docker compose down                       # Stop all containers, if needed.
