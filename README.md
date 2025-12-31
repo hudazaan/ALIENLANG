@@ -4,7 +4,7 @@
 
 ### Project Objective 
 As a fusion of creativity and technology, this project emphasizes leveraging image recognition and computer vision technologies to demonstrate the model's capability to work on unknown language datasets (alien in creative terms) through visual pattern learning, independent of linguistic rules. 
-Through this experimental dataset, the primary objective is to evaluate the classification accuracy and prediction capability of a CNN on new language data through supervised learning approach,thus acting as a conceptual proof for future sequence and sentence-level translation or script recognition tasks. 
+Through this experimental dataset, the primary objective is to evaluate the classification confidence and prediction capability of a CNN on new language data through supervised learning approach,thus acting as a conceptual proof for future sequence and sentence-level translation or script recognition tasks. 
 
 The project focused more on dataset creation, data augmentation, classification, and predictive accuracy of a ResNet-18 classier on unknown, CV-driven symbols. A minimal UI is included to demonstrate the conceptual functionalities of a real-time prediction pipeline. 
 Developed for research and development purposes, the system is designed to be extensible to different custom datasets, inputted through canvas and trained on model for evaluation. Through its interactive canvas UI, it serves as a foundational framework for digital handwriting feedback system and motor-skill assistance tool for children and people with motor impairments. 
